@@ -1,10 +1,10 @@
-# MultiClientChatServer 💬
+# MultiClientChatServer 
 
 A lightweight **multi-client chat application** built in Java using raw TCP sockets, `ObjectInputStream` / `ObjectOutputStream`, and per-client threading. The server assigns a unique name to each connecting client and routes private messages between them using a simple `sender__receiver__message` protocol.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 JavaSocketChat demonstrates core Java networking and concurrency concepts:
 
@@ -16,7 +16,7 @@ JavaSocketChat demonstrates core Java networking and concurrency concepts:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────┐        Socket        ┌─────────────────────┐
@@ -39,7 +39,7 @@ The server keeps a `ConcurrentHashMap<String, ObjectOutputStream>` (`clientMap`)
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ Supports up to **6 simultaneous clients**, auto-assigned friendly names (`shepo`, `dipo`, `fijo`, `torun`, `maruf`, `nobin`)
 - ✅ Direct (private) messaging between named clients
@@ -49,7 +49,7 @@ The server keeps a `ConcurrentHashMap<String, ObjectOutputStream>` (`clientMap`)
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 MultiClientChatServer/
@@ -68,7 +68,7 @@ MultiClientChatServer/
 
 ---
 
-## 🔌 Message Protocol
+##  Message Protocol
 
 Messages sent from a client must follow this format:
 
@@ -89,7 +89,7 @@ shepo :Hello, how are you?
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -142,19 +142,19 @@ shepo :Hey there!
 
 ---
 
-## 📸 Screenshot
+##  Screenshot
 
 > Add a screenshot of the running server and client(s) here to show the project in action.
 
 ```
-![JavaSocketChat Demo](screenshots/demo.png)
+![MultiClientChatServer](img.png)
 ```
 
 *(Create a `screenshots/` folder in your repo, add your image there, and update the path above.)*
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -166,7 +166,7 @@ shepo :Hey there!
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] Dynamic/custom usernames instead of a fixed pool of 6
 - [ ] Broadcast (group) messaging support
@@ -178,18 +178,18 @@ shepo :Hey there!
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to fork the repo and submit a pull request.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👤 Author
+##  Author
 
 Developed as a learning project to explore Java socket programming and multithreading.
