@@ -144,8 +144,8 @@ shepo :Hey there!
 
 ##  Screenshot 
 
-![MultiClientChatServer]([img.png](https://github.com/Shahriar-Islam-Shepo/MultiClientChatServer/blob/e48f941d288bec9549c06e4e1ee43b871364b119/Screenshot%202026-07-14%20203108.png))
 
+![MultiClientChatServer Demo](https://github.com/Shahriar-Islam-Shepo/MultiClientChatServer/blob/de030af4f9dd4cdd55b02cbb3f5fd703e9ac9b90/Screenshot%202026-07-14%20203108.png)
 ---
 
 ## 🛠 Tech Stack
