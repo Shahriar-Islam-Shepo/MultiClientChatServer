@@ -147,7 +147,7 @@ shepo :Hey there!
 > Add a screenshot of the running server and client(s) here to show the project in action.
 
 ```
-![MultiClientChatServer](img.png)
+![MultiClientChatServer]([img.png](https://github.com/Shahriar-Islam-Shepo/MultiClientChatServer/blob/e48f941d288bec9549c06e4e1ee43b871364b119/Screenshot%202026-07-14%20203108.png))
 ```
 
 *(Create a `screenshots/` folder in your repo, add your image there, and update the path above.)*
